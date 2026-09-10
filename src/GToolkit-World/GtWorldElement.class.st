@@ -405,6 +405,11 @@ GtWorldElement >> showNotification: aNotification [
 		anElement notification: aNotification ]
 ]
 
+{ #category : #'as yet unclassified' }
+GtWorldElement >> testMethod1 [
+	^''
+]
+
 { #category : #toolbar }
 GtWorldElement >> worldToolbarActions [
 	^ GtPhlowActionsCollector new
