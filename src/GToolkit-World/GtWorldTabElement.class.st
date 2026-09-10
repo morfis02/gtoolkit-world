@@ -483,6 +483,11 @@ GtWorldTabElement >> thisIsFTest [
 	^'Test method'
 ]
 
+{ #category : #'as yet unclassified' }
+GtWorldTabElement >> thisIsGTest [
+	^'test'
+]
+
 { #category : #'children - accessing' }
 GtWorldTabElement >> topMostParent [
 	"This method exists due to Driller.
